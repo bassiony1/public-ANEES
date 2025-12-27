@@ -1,0 +1,12 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+{% block branding %}
+{% block extrastyle %}
+
+  <link rel='stylesheet' href="{% static '/admin/css/admin.css' %}" />
+{% endblock %}
+    <div class="logo-group">
+        <img src="{% static '/admin/img/logo.png' %}" alt="">
+        <h1>Anees Admin Page</h1>
+    </div>
+{% endblock %}

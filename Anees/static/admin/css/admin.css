@@ -1,0 +1,16 @@
+
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.logo-group h1 {
+    color: white !important;
+
+}
+.logo-group img {
+    width: 50px;
+}
+
